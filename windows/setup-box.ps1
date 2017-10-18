@@ -1,3 +1,6 @@
+# Copy paste the line below in administrator powershell prompt
+# Set-ExecutionPolicy Bypass; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/davidroberts63/dotfiles/master/windows/setup-box.ps1'))
+
 Write-Host "Getting ChocolateyGet..."
 Install-PackageProvider ChocolateyGet
 Import-PackageProvider ChocolateyGet
