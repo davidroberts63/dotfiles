@@ -13,4 +13,6 @@ Write-Host "Installing packages..."
     "firefox",
     "nuget.commandline",
     "googlechrome"
-) | %{ cinst.exe $_ -y }
+) | %{ 
+  & cinst.exe $_ -y
+}
